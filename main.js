@@ -42,5 +42,7 @@ console.log(studenti);
 //   nomiStudenti.push(studenti.nome);
 //
 // };
-
-console.log(studenti.nome);
+for (var i = 0; i < studenti.length; i++) {
+  console.log(studenti[i].nome, studenti[i].cognome);
+  
+};
