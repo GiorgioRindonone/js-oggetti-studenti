@@ -36,13 +36,18 @@ console.log(studenti);
 // for (var i = 0; i < studenti.length; i++) {
 //   console.log(studenti[i]);
 // };
-// nomiStudenti = [];
-// cognomiStudenti = [];
+nomiStudenti = [];
+cognomiStudenti = [];
 // for (var i = 0; i < studenti.length; i++) {
 //   nomiStudenti.push(studenti.nome);
 //
 // };
 for (var i = 0; i < studenti.length; i++) {
+  nomiStudenti.push(studenti[i].nome)
+  cognomiStudenti.push(studenti[i].cognome)
+};
+console.log(nomiStudenti);
+console.log(cognomiStudenti);
+for (var i = 0; i < studenti.length; i++) {
   console.log(studenti[i].nome, studenti[i].cognome);
-  
 };
