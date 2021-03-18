@@ -20,15 +20,27 @@ for (var i = 0; i < studenti.length; i++) {
 
 
 // Creare un array di oggetti di studenti.
-
-studenti += "{
+nuovoStudente = studenti.push( {
   nome: 'gigi',
   cognome: 'franchetti',
-  età: 17,
-},";
+  età: 18,
+},);
+nuovoStudente = studenti.push( {
+  nome: 'franco',
+  cognome: 'rossi',
+  età: 24,
+},);
 
 // Ciclare su tutti gli studenti e stampare per ognuno di essi, nome e cognome.
 console.log(studenti);
 // for (var i = 0; i < studenti.length; i++) {
 //   console.log(studenti[i]);
 // };
+// nomiStudenti = [];
+// cognomiStudenti = [];
+// for (var i = 0; i < studenti.length; i++) {
+//   nomiStudenti.push(studenti.nome);
+//
+// };
+
+console.log(studenti.nome);
